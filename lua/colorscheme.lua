@@ -9,4 +9,4 @@ vim.g.tokyodark_visible_end_of_buff = true
 
 vim.cmd('colorscheme tokyodark')
 
-vim.cmd('highlight CursorLine guibg=#00000000')
+--vim.cmd('highlight CursorLine guibg=#00000000')
