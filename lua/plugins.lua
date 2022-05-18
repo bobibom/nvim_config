@@ -17,4 +17,8 @@ return require('packer').startup(function()
   use 'hrsh7th/vim-vsnip' -- snippet engine
   use 'onsails/lspkind.nvim' -- icons for autocompletion
   use 'folke/trouble.nvim' -- show diagnostics
+  use {
+    'nvim-telescope/telescope.nvim', -- file search
+    requires = { {'nvim-lua/plenary.nvim'} }
+  }
 end)

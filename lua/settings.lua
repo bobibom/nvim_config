@@ -21,7 +21,7 @@ vim.o.splitbelow = true                             -- split a window below the 
 vim.o.splitright = true                             -- split a window on the right of the current one
 vim.o.laststatus = 3                                -- global statusline
 vim.o.showmode = false                              -- show mode you are currently in
-vim.o.timeoutlen = 200                              -- time to wait for a mapping sequence to complete
+-- vim.o.timeoutlen = 200                              -- time to wait for a mapping sequence to complete
 vim.cmd('set clipboard=unnamedplus')                -- yank to clipboard
 vim.cmd('au BufEnter * set fo-=c fo-=r fo-=o')      -- don't put comment when you press 'o' from line with comment
 vim.g.python3_host_prog = '/usr/bin/python3'        -- python

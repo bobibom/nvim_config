@@ -35,3 +35,6 @@ keymap('n', '<Leader>d', ':w<CR>:bdelete<CR>', opts)
 
 -- Trouble --
 keymap('n', '<C-t>', ':TroubleToggle<CR>', opts)
+
+-- Telescope --
+keymap('n', '<Leader>f', ':Telescope find_files<CR>', opts)
