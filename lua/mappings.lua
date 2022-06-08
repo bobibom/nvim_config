@@ -30,9 +30,6 @@ keymap('n', '<Leader>h', ':noh<CR>', opts)
 keymap('n', '<Leader>c', ':bprevious<CR>', opts)
 keymap('n', '<Leader>r', ':bnext<CR>', opts)
 
--- Delete Buffer --
-keymap('n', '<Leader>d', ':w<CR>:bdelete<CR>', opts)
-
 -- Trouble --
 keymap('n', '<C-t>', ':TroubleToggle<CR>', opts)
 
